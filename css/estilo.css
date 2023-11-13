@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.estiloNav{
+    background-color: #d31c62;
+    
+}
+
+.estiloNav a{
+    color: #ffffff;
+    margin: auto 50px;
+    text-align: center;
+}
+
+.estiloNav a:hover{
+    color: #d31c62;
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+
