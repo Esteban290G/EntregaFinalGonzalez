@@ -77,6 +77,13 @@ footer a{
     padding: 0 0 10%;
 }
 
+.textCarousel{
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1.7);
+    
+}
+
 .formulario{
     color: #ffffff;
     width: 500px;
