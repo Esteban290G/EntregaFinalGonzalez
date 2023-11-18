@@ -20,7 +20,7 @@ body {
 }
 
 .estiloNav a{
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     margin: auto 50px;
     text-align: center;
 }
