@@ -90,6 +90,19 @@ footer a{
     margin: 5% auto 5% auto;
 }
 
+.buttonColor{
+    background-color: #d31c62;
+    color:#ffffff;
+    border-color: #8f1141;
+}
+
+.buttonColor:hover{
+    background-color: #ffffff;
+    color:#d31c62;
+    border-color: #8f1141;
+    
+}
+
 h3{
     color: #ffffff;
     text-align: center;
