@@ -117,9 +117,19 @@ h3{
     color: #ffffff;
 }
 
+.tituloRes{
+    padding: auto 20px;
+    color: #ffffff;
+}
+
 .textInfo{
     color: #ffffff;
     background-color:#d31c6288;
     padding: 15px;
     border-radius: 5px;
+}
+
+.stars{
+    max-width: 50%;
+    height: auto;
 }
