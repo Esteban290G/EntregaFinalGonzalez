@@ -1,135 +1,71 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color: #130f40;
-    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+}
+body header {
+  background-color: #2c051f;
+  color: #ffffff;
+}
+body header .titulo {
+  text-align: center;
+  color: #ffffff;
+}
+body header .estiloNav {
+  background-color: #d31c62;
+}
+body header .estiloNav a {
+  color: rgb(255, 255, 255);
+  margin: auto 50px;
+  text-align: center;
+}
+body header .estiloNav a a:hover {
+  color: #d31c62;
+  background-color: #ffffff;
+  border-radius: 3%;
+}
+body main .subTitulo {
+  text-align: center;
+  color: #ffffff;
+  padding: 2% 0 0 0;
+}
+body main .row {
+  padding: 0 0 10%;
+}
+body main .row h2 {
+  color: #ffffff;
+}
+body main .row .textCarousel {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.568627451);
+  border-radius: 1%;
+}
+body footer {
+  padding: 10px;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  color: #ffffff;
+}
+body footer h3 {
+  text-align: left;
+}
+body footer h4 {
+  text-align: right;
+}
+body footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body footer .imgfooter img {
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
-header{
-    background-color: #2c051f;
-    color: #ffffff;
-    
-}
-
-footer{
-    padding: 10px;
-    background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
-    color: #ffffff;
-}
-footer h3{
-    text-align: left;
-}
-
-footer h4{
-    text-align: right;
-}
-
-footer a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.imgfooter img{
-    height: 30px; 
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.titulo{
-    text-align: center;
-    color: #ffffff;
-}
-
-.estiloNav{
-    background-color: #d31c62;
-    
-}
-
-.estiloNav a{
-    color: rgb(255, 255, 255);
-    margin: auto 50px;
-    text-align: center;
-}
-
-.estiloNav a:hover{
-    color: #d31c62;
-    background-color: #ffffff;
-    border-radius: 3%;
-}
-
-.subTitulo{
-    text-align: center;
-    color: #ffffff;
-    padding: 2% 0 0 0 ;
-}
-
-.row h2{
-    color: #ffffff;
-}
-
-.row{
-    padding: 0 0 10%;
-}
-
-.textCarousel{
-    color: #ffffff;
-    background-color: #00000091;
-    border-radius: 1%;
-    
-}
-
-.formulario{
-    color: #ffffff;
-    width: 500px;
-    margin: 5% auto 5% auto;
-}
-
-.buttonColor{
-    background-color: #d31c62;
-    color:#ffffff;
-    border-color: #8f1141;
-}
-
-.buttonColor:hover{
-    background-color: #ffffff;
-    color: rgba(212, 28, 98);
-    border-color: #8f1141;
-    
-}
-
-h3{
-    color: #ffffff;
-    text-align: center;
-}
-
-.imgPortada{
-    max-width: 100%;
-    height: auto;
-}
-
-.fechas{
-    color: #ffffff;
-}
-
-.tituloRes{
-    padding: auto 20px;
-    color: #ffffff;
-}
-
-.textInfo{
-    color: #ffffff;
-    background-color:#d31c6288;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.stars{
-    max-width: 50%;
-    height: auto;
-}
+/*# sourceMappingURL=estilo.css.map */
