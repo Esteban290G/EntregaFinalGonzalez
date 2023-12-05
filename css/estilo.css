@@ -5,30 +5,32 @@
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  background-color: #130f40;
-  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
-}
-body header {
+header {
   background-color: #2c051f;
   color: #ffffff;
 }
-body header .titulo {
+header .titulo {
   text-align: center;
   color: #ffffff;
 }
-body header .estiloNav {
+
+header .estiloNav {
   background-color: #d31c62;
 }
-body header .estiloNav a {
+header .estiloNav a {
   color: rgb(255, 255, 255);
   margin: auto 50px;
   text-align: center;
 }
-body header .estiloNav a a:hover {
+header .estiloNav a:hover {
   color: #d31c62;
   background-color: #ffffff;
   border-radius: 3%;
+}
+
+body {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
 }
 body main .subTitulo {
   text-align: center;
@@ -46,23 +48,64 @@ body main .row .textCarousel {
   background-color: rgba(0, 0, 0, 0.568627451);
   border-radius: 1%;
 }
-body footer {
+body main .row .imgPortada {
+  max-width: 100%;
+  height: auto;
+}
+body main .row .fechas {
+  color: #ffffff;
+}
+body main .row .textInfo {
+  color: #ffffff;
+  background-color: rgba(211, 28, 98, 0.5333333333);
+  padding: 15px;
+  border-radius: 5px;
+}
+body main .row .tituloRes {
+  padding: auto 20px;
+  color: #ffffff;
+}
+body main .row .stars {
+  max-width: 50%;
+  height: auto;
+}
+body main .row .formulario {
+  color: #ffffff;
+  width: 500px;
+  margin: 5% auto 5% auto;
+}
+body main .row .buttonColor {
+  background-color: #d31c62;
+  color: #ffffff;
+  border-color: #8f1141;
+}
+body main .row .buttonColor:hover {
+  background-color: #ffffff;
+  color: rgb(212, 28, 98);
+  border-color: #8f1141;
+}
+body main h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+footer {
   padding: 10px;
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
   color: #ffffff;
 }
-body footer h3 {
+footer h3 {
   text-align: left;
 }
-body footer h4 {
+footer h4 {
   text-align: right;
 }
-body footer a {
+footer a {
   text-decoration: none;
   color: #ffffff;
 }
-body footer .imgfooter img {
+footer .imgfooter img {
   height: 30px;
   margin-right: 10px;
   display: inline-block;
