@@ -48,6 +48,10 @@ body main .row .textCarousel {
   background-color: rgba(0, 0, 0, 0.568627451);
   border-radius: 1%;
 }
+body main .row .textCarousel a {
+  text-decoration: none;
+  color: #ffffff;
+}
 body main .row .imgPortada {
   max-width: 100%;
   height: auto;
@@ -83,10 +87,14 @@ body main .row .buttonColor:hover {
   background-color: #ffffff;
   color: rgb(212, 28, 98);
   border-color: #8f1141;
+  transform: translate(1px, 1px);
 }
 body main h3 {
   color: #ffffff;
   text-align: center;
+}
+body main .news {
+  padding: 0 0 5%;
 }
 
 footer {
