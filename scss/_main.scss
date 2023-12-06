@@ -6,8 +6,18 @@ body {
 
         .bgContainer{
             background-color: #8f0f4088;
-            padding: 20px 70px 70px 70px;
-            border-radius: 5px;     
+            padding: 50px 30px 30px 30px;
+            border-radius: 5px;  
+            
+            .breadcrumb{
+                padding: 10px 5px;
+                    li{
+                        color: #ffffff;
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+            }
             
         }
 
@@ -22,6 +32,10 @@ body {
 
             h2{
                 color: #ffffff;
+                a{
+                    text-decoration: none;
+                    font-size: 25px;
+                }
             }
 
             .textCarousel{
@@ -31,6 +45,12 @@ body {
                 a{
                     text-decoration: none;
                     color: #ffffff;
+
+                    &:hover{
+                        transform: translate(1px, 1px);
+                        color: #e95d92;
+
+                    }
                 }
             }
 
@@ -46,8 +66,12 @@ body {
             .textInfo{
                 color: #ffffff;
                 background-color:#d31c6288;
-                padding: 15px;
+                padding: 5px;
                 border-radius: 5px;
+                p{
+                    padding: 10px;
+                    font-size: larger;
+                }
             }
 
             .tituloRes{

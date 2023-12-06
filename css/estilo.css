@@ -34,8 +34,17 @@ body {
 }
 body main .bgContainer {
   background-color: rgba(143, 15, 64, 0.5333333333);
-  padding: 20px 70px 70px 70px;
+  padding: 50px 30px 30px 30px;
   border-radius: 5px;
+}
+body main .bgContainer .breadcrumb {
+  padding: 10px 5px;
+}
+body main .bgContainer .breadcrumb li {
+  color: #ffffff;
+}
+body main .bgContainer .breadcrumb li a {
+  text-decoration: none;
 }
 body main .subTitulo {
   text-align: center;
@@ -48,6 +57,10 @@ body main .row {
 body main .row h2 {
   color: #ffffff;
 }
+body main .row h2 a {
+  text-decoration: none;
+  font-size: 25px;
+}
 body main .row .textCarousel {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.568627451);
@@ -56,6 +69,10 @@ body main .row .textCarousel {
 body main .row .textCarousel a {
   text-decoration: none;
   color: #ffffff;
+}
+body main .row .textCarousel a:hover {
+  transform: translate(1px, 1px);
+  color: #e95d92;
 }
 body main .row .imgPortada {
   max-width: 100%;
@@ -67,8 +84,12 @@ body main .row .fechas {
 body main .row .textInfo {
   color: #ffffff;
   background-color: rgba(211, 28, 98, 0.5333333333);
-  padding: 15px;
+  padding: 5px;
   border-radius: 5px;
+}
+body main .row .textInfo p {
+  padding: 10px;
+  font-size: larger;
 }
 body main .row .tituloRes {
   padding: auto 20px;
