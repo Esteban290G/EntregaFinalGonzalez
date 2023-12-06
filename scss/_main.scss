@@ -3,12 +3,20 @@ body {
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
     
     main{
+
+        .bgContainer{
+            background-color: #8f0f4088;
+            padding: 20px 70px 70px 70px;
+            border-radius: 5px;     
+            
+        }
+
         .subTitulo{
             text-align: center;
             color: #ffffff;
             padding: 2% 0 0 0 ;
         }
-
+     
         .row{
             padding: 0 0 10%;
 
