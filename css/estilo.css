@@ -19,6 +19,13 @@ header .estiloNav {
 }
 header .estiloNav .imgLogo {
   max-height: 50px;
+  margin: auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  header .estiloNav .imgLogo {
+    margin: 0;
+  }
 }
 header .estiloNav a {
   color: #ffffff;
@@ -122,7 +129,7 @@ body main .row .buttonColor:hover {
   border-color: #8f1141;
   transform: translate(1px, 1px);
 }
-body main .row h2 {
+body main .row .sobreNos {
   text-align: center;
 }
 body main .row p {

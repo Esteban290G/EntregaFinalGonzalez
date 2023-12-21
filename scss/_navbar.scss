@@ -5,6 +5,14 @@ header{
 
         .imgLogo{
             max-height: 50px;
+            margin: auto;
+            display: block;
+        }
+
+        @media (min-width: 992px) {
+            .imgLogo {
+              margin: 0;
+            }
         }
 
         a{
