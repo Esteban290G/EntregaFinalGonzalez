@@ -1,26 +1,42 @@
+@import "variables";
 footer{
     padding: 10px;
-    background: rgb(0,0,0);
+    background: $negro;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(125,11,55,1) 100%, rgba(0,0,0,1) 100%);
-    color: #ffffff;
+    color: $blanco;
 
     h3{
         text-align: left;
     }
 
-    h4{
+    .botonSubir{
         text-align: right;
-    }
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        cursor: pointer;
 
-    a{
-        text-decoration: none;
-        color: #ffffff;
+        img{
+
+            transition: filter 0.3s ease-in-out;
+        }
+
+        &:hover img{
+            filter: invert(1);
+        }
     }
 
     .imgfooter img{
         height: 30px; 
         margin-right: 10px;
         display: inline-block;
+    }
+
+    p{
+        a{
+            text-decoration: none;
+        }
     }
 
 }

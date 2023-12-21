@@ -1,18 +1,24 @@
+@import "variables";
 body {
     background-color: #130f40;
     background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
     
     main{
 
+        p{
+            color: $blanco;
+            text-align: center;
+        }
+
         .bgContainer{
-            background-color: #8f0f4088;
+            background-color: $colorContainers;
             padding: 50px 30px 30px 30px;
             border-radius: 5px;  
             
             .breadcrumb{
                 padding: 10px 5px;
                     li{
-                        color: #ffffff;
+                        color: $blanco;
                         a{
                             text-decoration: none;
                         }
@@ -23,7 +29,7 @@ body {
 
         .subTitulo{
             text-align: center;
-            color: #ffffff;
+            color: $blanco;
             padding: 2% 0 0 0 ;
         }
      
@@ -31,7 +37,7 @@ body {
             padding: 0 0 10%;
 
             h2{
-                color: #ffffff;
+                color: $blanco;
                 a{
                     text-decoration: none;
                     font-size: 25px;
@@ -39,16 +45,16 @@ body {
             }
 
             .textCarousel{
-                color: #ffffff;
+                color: $blanco;
                 background-color: #00000091;
                 border-radius: 1%;
                 a{
                     text-decoration: none;
-                    color: #ffffff;
+                    color: $blanco;
 
                     &:hover{
                         transform: translate(1px, 1px);
-                        color: #e95d92;
+                        color: $colorPrincipal;
 
                     }
                 }
@@ -60,12 +66,12 @@ body {
             }
             
             .fechas{
-                color: #ffffff;
+                color: $blanco;
             }
 
             .textInfo{
-                color: #ffffff;
-                background-color:#d31c6288;
+                color: $blanco;
+                background-color: $colorCajasTexto;
                 padding: 5px;
                 border-radius: 5px;
                 p{
@@ -76,7 +82,7 @@ body {
 
             .tituloRes{
                 padding: auto 20px;
-                color: #ffffff;
+                color: $blanco;
             }
             
             
@@ -86,33 +92,47 @@ body {
             }
 
             .formulario{
-                color: #ffffff;
+                color: $blanco;
                 width: 500px;
                 margin: 5% auto 5% auto;
             }
             
             .buttonColor{
-                background-color: #d31c62;
-                color:#ffffff;
-                border-color: #8f1141;
+                background-color: $colorPrincipal;
+                color: $blanco;
+                border-color: $colorBordes;
             
                 &:hover{
-                    background-color: #ffffff;
-                    color: rgba(212, 28, 98);
-                    border-color: #8f1141;
+                    background-color: $blanco;
+                    color: $colorPrincipal;
+                    border-color: $colorBordes;
                     transform: translate(1px, 1px);
                     
                 }
             }
+
+            h2{
+                text-align: center;
+            }
+
+            p{
+                text-align: left;
+            }
+
+            .imgFogata{
+                text-align: center;
+            }
+            
             
         }
         h3{
-            color: #ffffff;
+            color: $blanco;
             text-align: center;
         }
         .news{
             padding: 0 0 5%;
         }
+
     }
 
 }
