@@ -129,10 +129,10 @@ body main .row .buttonColor:hover {
   border-color: #8f1141;
   transform: translate(1px, 1px);
 }
-body main .row .sobreNos {
+body main .row .sobreNosgi {
   text-align: center;
 }
-body main .row p {
+body main .row .textoSobreNos p {
   text-align: left;
 }
 body main .row .imgFogata {
